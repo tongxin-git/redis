@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/d/redis-5.0.5/src/modules/testmodule.c
+../redismodule.h
+/cygdrive/d/redis-5.0.5/src/redismodule.h
+string.h
+-
+
+/cygdrive/d/redis-5.0.5/src/redismodule.h
+sys/types.h
+-
+stdint.h
+-
+stdio.h
+-
+
